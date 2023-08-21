@@ -5,10 +5,8 @@
 # EsoCaml
 
 *EsoCaml* is a simple esoteric programming language, quickly developed for funny.
-To be honest, this is an esoteric front-end for [a simple PL]([GitHub - marcoantoniocorallo/Fhree: Fhree is a small strongly typed functional language, it is interpreted and it implements the big-step operational semantics.](https://github.com/marcoantoniocorallo/Fhree)) I developed early.
+To be honest, this is an esoteric front-end for [a simple PL]([GitHub - marcoantoniocorallo/Fhree: Fhree is a small strongly typed functional language, it is interpreted and it implements the big-step operational semantics.](https://github.com/marcoantoniocorallo/EsoCaml)) I developed early.
 Thus, this is a **functional** *EsoLang* inspired by [*reMorse*]([reMorse - Esolang](https://esolangs.org/wiki/ReMorse)) with an *OCaml*-like back-end.
-
-
 
 Each constant and identifier must be written in morse code, and the constants must begin with 3 letters that specify the type.
 If there is no type at the beginning of the word, It will be treated as an identifier.
@@ -102,7 +100,7 @@ Keywords, Operators and types (for type annotations) are divided in three *rotat
 |          | >=        |                 |
 |          | ^         |                 |
 |          | ::        |                 |
-|          | |>        |                 |
+|          |           | >               |
 
 You can handle the rotating wheels by an unique, shared, index.
 
@@ -114,8 +112,6 @@ You can handle the rotating wheels by an unique, shared, index.
 | `#`      | Enter the current **type annotation** |
 
 The index begins with 0 and is restarted when a keyword, an operator or a type is chosen.
-
-
 
 In addition to these keywords and operators, you can use the following special ones:
 
@@ -131,11 +127,7 @@ In addition to these keywords and operators, you can use the following special o
 
 For simplicity, you can use the character `|` as separator between morse code statements and the character `_` as space between two morse code words.
 
-
-
 Since the only legal characters are: `.` `-` `>` `!` `@` `#` `,` `(` `)` `[` `]` `:` `_`, every other character will be ignored and can be used **for comments**.
-
-
 
 Due to the complexity of this language, it has been tested very little.
 EsoCaml is just a toy language, but if you want to play with it, please, let me know what do you thing about it! :)
