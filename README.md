@@ -5,7 +5,7 @@
 # EsoCaml
 
 *EsoCaml* is a simple esoteric programming language, quickly developed for funny.
-To be honest, this is an esoteric front-end for [a simple PL](https://github.com/marcoantoniocorallo/EsoCaml) I developed early.
+To be honest, this is an esoteric front-end for [a simple PL](https://github.com/marcoantoniocorallo/EsoCaml/blob/main/cover_1.png) I developed early.
 Thus, this is a **functional** *EsoLang* inspired by [*reMorse*]([reMorse - Esolang](https://esolangs.org/wiki/ReMorse)) with an *OCaml*-like back-end.
 
 Each constant and identifier must be written in morse code, and the constants must begin with 3 letters that specify the type.
