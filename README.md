@@ -5,10 +5,12 @@
 # EsoCaml
 
 *EsoCaml* is a simple esoteric programming language, quickly developed for funny.
-To be honest, this is an esoteric front-end for [a simple PL](https://github.com/marcoantoniocorallo/Fhree) I developed early.
+To be honest, this is an esoteric front-end for a simple PL (see [Fhree](https://github.com/marcoantoniocorallo/Fhree)) I developed early.
 Thus, this is a **functional** *EsoLang* inspired by [*reMorse*](https://esolangs.org/wiki/ReMorse) with an *OCaml*-like back-end.
 
-Each constant and identifier must be written in morse code, and the constants must begin with 3 letters that specify the type.
+If you want to understand how the back-end works, you can read the Fhree's documentation.
+
+In EsoCaml, constants and identifiers must be written in morse code, and the constants must begin with 3 letters that specify the type.
 If there is no type at the beginning of the word, It will be treated as an identifier.
 
 **Morse Code**
