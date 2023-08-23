@@ -79,7 +79,7 @@ If there is no type at the beginning of the word, It will be treated as an ident
 | Int          | INT    | INT42         | 42          | .. -. - ....- ..--- \|                               |
 | Char         | CHR    | CHRT          | 'T'         | -.-. .... .-. -                                      |
 | Float        | FLT    | FLT0.18       | 0.18        | ..-. .-.. - ----- .-.-.- .---- ---..                 |
-| Bool         | BOL    | BOOLTRUE      | true        | -... --- --- .-.. - .-. ..- .                        |
+| Bool         | BOL    | BOLTRUE      | true        | -... --- --- .-.. - .-. ..- .                        |
 | String       | STR    | STRHELLO_WORD | Hello World | ... - .-. .... . .-.. .-.. ---__.-- --- .-. .-.. -.. |
 
 Keywords, Operators and types (for type annotations) are divided in three *rotating wheels*:
@@ -132,6 +132,6 @@ For simplicity, you can use the character `|` as separator between morse code st
 Since the only legal characters are: `.` `-` `>` `!` `@` `#` `,` `(` `)` `[` `]` `:` `_`, every other character will be ignored and can be used **for comments**.
 
 Due to the complexity of this language, it has been tested very little.
-EsoCaml is just a toy language, but if you want to play with it, please, let me know what do you thing about it! :)
+EsoCaml is just a toy language, but if you want to play with it, please, let me know what do you think about it! :)
 
 ---
